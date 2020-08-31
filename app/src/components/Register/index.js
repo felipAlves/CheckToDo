@@ -8,9 +8,11 @@ export default function Register() {
             <div className="content">
                 <form>
                     <h1>Cadastre-se</h1>
-                    <input placeholder="Nome"/>
-                    <input placeholder="E-mail"/>
-                    <input placeholder="Senha"/>
+                    <input maxLength="120" placeholder="Nome"/>
+                    <input maxLength="20" placeholder="Username"/>
+                    <input maxLength="30" type="password" placeholder="Senha"/>
+
+                    <button className="button">Cadastrar</button>
                 </form>
                 <section>
                     <p>Organize suas tarefas diárias de forma rápida e prática.</p>

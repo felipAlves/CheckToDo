@@ -8,7 +8,7 @@
 
 body {
     font: 400 14px Roboto, sans-serif;
-    background: #f0f0f5;
+    background: #62eb9f;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -48,8 +48,14 @@ input {
     border: none;
     font-size: 18px;
     display: inline-block;
-    background: rgb(30, 184, 30);
+    background: #00e969;
     margin-bottom: 10px;
+    cursor: pointer;
+    transition: opacity .2s;
+}
+
+.button:hover {
+    opacity: 80%;
 }
 
 a {
@@ -60,10 +66,11 @@ a {
     font-size: 18px;
     text-decoration: none;
     font-weight: 500;
-    transition: opacity 0.2s;
 }
 
 h1 {
     font-size: 25px;
     margin-bottom: 20px;
+    color: #4c6358;
+    font-weight: bold;
 }
