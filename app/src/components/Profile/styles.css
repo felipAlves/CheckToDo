@@ -1,0 +1,15 @@
+.profile-container {
+    width: 100%;    
+}
+
+.profile-container header {
+    display: flex;
+    width: 100%;
+}
+
+.logout {
+    width: 100px;
+    border: none;
+    background: none;
+    border-radius: 8px;
+}

@@ -1,0 +1,17 @@
+.logon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+img {
+    width: 600px;
+}
+
+section {
+    width: 100%;
+    max-width: 350px;
+}
+
