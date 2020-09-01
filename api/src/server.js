@@ -1,5 +1,7 @@
 const express = require('express')
 const mongoose = require('mongoose')
+const cors = require('cors')
+
 const rateLimit = require("express-rate-limit");
 
 const routes = require('./routes')
@@ -17,7 +19,7 @@ mongoose.connect('mongodb+srv://felipealves:felipealves@cluster0.b2c4e.mongodb.n
 
 const app = express()
 
-
+app.use(cors())
 app.use(express.json())
 app.use(limiter);
 app.use(routes)

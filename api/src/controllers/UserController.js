@@ -86,7 +86,9 @@ module.exports = {
                 return res.status(400).send({ erro: 'Senha inválida, tente novamente' })
             }
 
-            res.send({ 
+            res.send({
+                username: user.username,
+                id: user._id, 
                 token: Token.generateToken({ id: user.id }), 
                 sucesso: `Bem vindo, ${username}!`
             })
